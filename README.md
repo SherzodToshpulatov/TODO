@@ -1,6 +1,6 @@
 
 
-## ImagesTODO — Single-Tab-Per-Project
+## TODO — Single-Tab-Per-Project
 
 🚀 **[Live Demo](https://todo-seven-plum-85.vercel.app/)**
 
