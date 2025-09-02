@@ -1,32 +1,34 @@
-TODO — Single-Tab-Per-Project
 
-🚀 **[Live Demo](https://your-deployment-link.com)**
+
+## ImagesTODO — Single-Tab-Per-Project
+
+🚀 **[Live Demo](https://todo-seven-plum-85.vercel.app/)**
 
 A single-page TODO application built with React.js.
 Each browser tab is a separate project (identified by ?pid=<id> in the URL).
 Everything is stored on the front-end (no backend) in localStorage. Projects can be exported/imported as JSON.
 
-Features
+### Features
 
-Every browser tab = a separate project (no in-tab project switching).
+* Every browser tab = a separate project (no in-tab project switching).
 
-Editable project name (used as document.title).
+* Editable project name (used as document.title).
 
-Add / delete tasks.
+* Add / delete tasks.
 
-Mark task as done / not done.
+* Mark task as done / not done.
 
-Persistent storage across reloads (stored in localStorage).
+* Persistent storage across reloads (stored in localStorage).
 
-Import / export a project (JSON).
+* Import / export a project (JSON).
 
-Recursive subtasks (infinite depth).
+* Recursive subtasks (infinite depth).
 
-Filter/search tasks (filter is persisted).
+* Filter/search tasks (filter is persisted).
 
-Edit task title after creation (double-click or edit button).
+* Edit task title after creation (double-click or edit button).
 
-Quick demo (how the project-per-tab works)
+### How the project-per-tab works
 
 When you first open the app, it generates a random project id pid and appends it to the URL as ?pid=<id>.
 
@@ -35,10 +37,9 @@ Open a new tab (navigate to the same app URL) — a new pid is generated, so tha
 If you want to share or move a project, use Export to download a JSON file and Import it in another tab.
 
 
-JSON import/export format
+### JSON import/export format
 
-A project JSON looks like:
-
+```
 {
   "pid": "abcd-1234-...",
   "title": "Project Title",
@@ -62,3 +63,5 @@ A project JSON looks like:
   "createdAt": 1690000000000,
   "updatedAt": 1690000000000
 }
+```
+
